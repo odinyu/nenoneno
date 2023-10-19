@@ -199,7 +199,7 @@
     />
 
     <div
-        class="flex justify-around  w-full mt-4 text-gray-500dark:text-slate-300"
+        class="flex justify-around  w-full mt-4 text-gray-500 dark:text-slate-300"
     >
         <div class="font-bold text-lg">
             <div class="text-xl">{$countStore.nenoCount}</div>

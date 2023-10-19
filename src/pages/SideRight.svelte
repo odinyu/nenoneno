@@ -154,10 +154,6 @@
                     </button>
                 </div>
             {/if}
-            {#if changeTag === ""}
-
-            {/if}
-
             <div
                     class="flex dark:text-slate-300"
                     class:hidden={$taskCountTag.all===0}

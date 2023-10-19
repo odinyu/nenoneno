@@ -111,7 +111,7 @@
 >
     <div class="flex justify-between relative ">
         <div class="text-sm text-gray-500 dark:text-slate-300">
-            {dayjs(created_at).format("YYYY-MM-DD HH:mm")}
+            {dayjs(created_at).format("YYYY-MM-DD HH:mm:ss")}
         </div>
         <div class=" relative z-auto ">
             <button on:click={() => toggleMenu(1)} class="focus:outline-none ">
@@ -193,7 +193,7 @@
         />
     {:else}
         <div
-                class="list-decimal text-sm text-red-300  whitespace-no-wrap "
+                class="list-decimal text-sm text-neutral-600 dark:text-slate-100  whitespace-no-wrap "
                 style="height:revert"
         >
             <p class="whitespace-no-wrap ">
