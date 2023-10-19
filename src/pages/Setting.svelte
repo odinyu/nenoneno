@@ -211,6 +211,7 @@
                     <div>
                         <div>
                             <div class="m-4">
+                                <!-- svelte-ignore a11y-label-has-associated-control -->
                                 <label
                                 >用户 Token<a
                                         class="text-sm ml-4"
@@ -278,6 +279,7 @@
 
                         {#if $notionStore.isSyncToNotion}
                             <div class="ml-2 mt-2 text-">
+                                <!-- svelte-ignore a11y-label-has-associated-control -->
                                 <label
                                 >Notion Internal Integration Token<a
                                         class="text-sm ml-4"
@@ -293,6 +295,7 @@
                                 />
                             </div>
                             <div class="ml-2 mt-2">
+                                <!-- svelte-ignore a11y-label-has-associated-control -->
                                 <label
                                 >Notion Database ID<a
                                         class="text-sm ml-4"
@@ -319,6 +322,7 @@
                     </div>
                 {/if}
                 <div class="m-4">
+                    <!-- svelte-ignore a11y-label-has-associated-control -->
                     <label>导入/导出离线数据</label>
                     <div class="flex items-center space-x-4">
                         <button

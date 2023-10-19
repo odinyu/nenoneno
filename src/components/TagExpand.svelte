@@ -2,7 +2,6 @@
     import { createEventDispatcher} from "svelte";
     export let tag = "";
     export let selectionTag = "";
-    export let parentTag = "";
     export let showTag = "";
 
     export let children = [];
